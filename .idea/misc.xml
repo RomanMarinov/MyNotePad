@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/drawable/logout.xml" value="0.24010416666666667" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/drawable/rounded_edittext.xml" value="0.5145599842968755" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/layout/fragment_auth_google.xml" value="0.13823999578125012" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/layout/fragment_notes_page.xml" value="0.25343999226562525" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/layout/fragment_one_note.xml" value="0.2862957937584803" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/layout/fragment_show_anim.xml" value="0.22395833333333334" />
+        <entry key="..\:/I_AM/PROFESSION_DEVELOPER/junior interview/MyNotePad/app/src/main/res/layout/row_note.xml" value="0.19199999414062519" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

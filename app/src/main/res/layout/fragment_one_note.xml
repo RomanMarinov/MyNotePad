@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<data class="ClassFragmentOneNoteDataBinding">
+    <variable
+        name="onenotedatabinding"
+        type="com.dev_marinov.mynotepad.FragmentOneNoteDataBindingView" />
+</data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clFragOneNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        tools:context=".FragmentOneNote"
+        android:background="@color/greyforlayout"
+        >
+
+
+
+        <EditText
+            android:id="@+id/edtSubject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:maxLength="20"
+            android:inputType="textCapSentences"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtNote"
+            />
+
+        <EditText
+            android:id="@+id/edtNote"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_edittext"
+            android:maxLines="50"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"
+            android:gravity="top"
+            app:layout_constraintTop_toBottomOf="@id/edtSubject"
+            app:layout_constraintBottom_toTopOf="@id/btSave"
+            />
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@{onenotedatabinding.bt_save_str}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
